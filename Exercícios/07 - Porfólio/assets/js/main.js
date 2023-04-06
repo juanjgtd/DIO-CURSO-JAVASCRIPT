@@ -32,15 +32,15 @@ function updateHardSkills(profileData) {
 }
 
 function updateIdiomas(profileData) {
-    const idiomas = document.getElementById('profile.languages')
-    idiomas.innerHTML = profileData.languages.map(skill => `<li>${skill}</li>`).join('')
+    const languages = document.getElementById('profile.languages')
+    languages.innerHTML = profileData.languages.map(language => `<li>${language}</li>`).join('')
 }
 
 function updatePortfolio(profileData) {
     const portfolio = document.getElementById('profile.portfolio')
-    portfolio.innerHTML = profileData.portfolio.map(skill => `<li>
-    <h3 ${skill.github ? 'class="title github"' : 'class="title"'}>${skill.name}</h3>
-    <a href="${skill.url}" target="_blank">${skill.url}</a></li>`).join('')
+    portfolio.innerHTML = profileData.portfolio.map(portfolio => `<li>
+    <h3 ${portfolio.github ? 'class="title github"' : 'class="title"'}>${portfolio.name}</h3>
+    <a href="${portfolio.url}" target="_blank">${portfolio.url}</a></li>`).join('')
 }
 
 
