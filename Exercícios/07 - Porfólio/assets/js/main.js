@@ -43,6 +43,17 @@ function updatePortfolio(profileData) {
     <a href="${portfolio.url}" target="_blank">${portfolio.url}</a></li>`).join('')
 }
 
+function updateExperience(profileData) {
+    const experience = document.getElementById('profile.experience')
+    experience.innerHTML = profileData.professionalExperience.map(experience => `
+    <li>
+                        <h3 class="title">${experience.name}</h3>
+                        <span class="period">${experience.period}</span>
+                        <p>${experience.description}</p>
+                    </li>
+    `).join('')
+}
+
 
 (async () => {
     const profileData = await fetchProfileData()
@@ -51,4 +62,5 @@ function updatePortfolio(profileData) {
     updateHardSkills(profileData)
     updateIdiomas(profileData)
     updatePortfolio(profileData)
+    updateExperience(profileData)
 })()
