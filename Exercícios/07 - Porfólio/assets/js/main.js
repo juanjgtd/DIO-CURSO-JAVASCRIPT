@@ -39,7 +39,7 @@ function updateIdiomas(profileData) {
 function updatePortfolio(profileData) {
     const portfolio = document.getElementById('profile.portfolio')
     portfolio.innerHTML = profileData.portfolio.map(skill => `<li>
-    <h3 ${skill.github ? 'class="title github"' : ''}>${skill.name}</h3>
+    <h3 ${skill.github ? 'class="title github"' : 'class="title"'}>${skill.name}</h3>
     <a href="${skill.url}" target="_blank">${skill.url}</a></li>`).join('')
 }
 
