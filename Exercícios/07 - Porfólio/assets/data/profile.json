@@ -9,23 +9,23 @@
     "hardSkills": [
       {
         "name": "Html5",
-        "logo": "https://github.com/juanjgtd/DIO-CURSO-JAVASCRIPT/blob/main/Exerc%C3%ADcios/07%20-%20Porf%C3%B3lio/assets/data/imgs/html-5.svg"
+        "logo": "https://raw.githubusercontent.com/juanjgtd/DIO-CURSO-JAVASCRIPT/main/Exerc%C3%ADcios/07%20-%20Porf%C3%B3lio/assets/data/imgs/html-5.svg"
       },
       {
         "name": "CSS",
-        "logo": "https://github.com/juanjgtd/DIO-CURSO-JAVASCRIPT/blob/main/Exerc%C3%ADcios/07%20-%20Porf%C3%B3lio/assets/data/imgs/css.svg"
+        "logo": "https://raw.githubusercontent.com/juanjgtd/DIO-CURSO-JAVASCRIPT/main/Exerc%C3%ADcios/07%20-%20Porf%C3%B3lio/assets/data/imgs/css.svg"
       },
       {
         "name": "Javascript",
-        "logo": "https://github.com/juanjgtd/DIO-CURSO-JAVASCRIPT/blob/main/Exerc%C3%ADcios/07%20-%20Porf%C3%B3lio/assets/data/imgs/js.svg"
+        "logo": "https://raw.githubusercontent.com/juanjgtd/DIO-CURSO-JAVASCRIPT/main/Exerc%C3%ADcios/07%20-%20Porf%C3%B3lio/assets/data/imgs/js.svg"
       },
       {
         "name": "Angular",
-        "logo": "https://github.com/juanjgtd/DIO-CURSO-JAVASCRIPT/blob/main/Exerc%C3%ADcios/07%20-%20Porf%C3%B3lio/assets/data/imgs/angular.svg"
+        "logo": "https://raw.githubusercontent.com/juanjgtd/DIO-CURSO-JAVASCRIPT/main/Exerc%C3%ADcios/07%20-%20Porf%C3%B3lio/assets/data/imgs/angular.svg"
       },
       {
         "name": "React",
-        "logo": "https://github.com/juanjgtd/DIO-CURSO-JAVASCRIPT/blob/main/Exerc%C3%ADcios/07%20-%20Porf%C3%B3lio/assets/data/imgs/react.svg"
+        "logo": "https://raw.githubusercontent.com/juanjgtd/DIO-CURSO-JAVASCRIPT/main/Exerc%C3%ADcios/07%20-%20Porf%C3%B3lio/assets/data/imgs/react.svg"
       }
     ],
     "softSkills": [
