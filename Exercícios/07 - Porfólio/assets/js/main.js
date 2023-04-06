@@ -36,6 +36,13 @@ function updateIdiomas(profileData) {
     idiomas.innerHTML = profileData.languages.map(skill => `<li>${skill}</li>`).join('')
 }
 
+function updatePortfolio(profileData) {
+    const portfolio = document.getElementById('profile.portfolio')
+    portfolio.innerHTML = profileData.portfolio.map(skill => `<li>
+    <h3 ${skill.github ? 'class="title github"' : ''}>${skill.name}</h3>
+    <a href="${skill.url}" target="_blank">${skill.url}</a></li>`).join('')
+}
+
 
 (async () => {
     const profileData = await fetchProfileData()
@@ -43,4 +50,5 @@ function updateIdiomas(profileData) {
     updateSoftSkills(profileData)
     updateHardSkills(profileData)
     updateIdiomas(profileData)
+    updatePortfolio(profileData)
 })()
